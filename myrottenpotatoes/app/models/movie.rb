@@ -22,5 +22,5 @@ class Movie < ActiveRecord::Base
 end
 
 # now try in console:
-m = Movie.create!(:title => 'STAR  wars', :release_date => '27-5-1977', :rating => 'PG')
-m.title  # => "Star Wars"
+m = Movie.create!(:title => 'Man In Black', :release_date => '27-5-1977', :rating => 'PG-13')
+m.title  # => "Man In Black"
